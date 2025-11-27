@@ -1,5 +1,5 @@
 # Learning Flutter
-Learning the Flutter SDK & Flutter Framework for building native iOS and Android apps throught Udemy. Instructed by Maximilian Schwarzmüller.
+Learning the Flutter SDK and Flutter framework for building native iOS and Android apps through Udemy. Instructed by Maximilian Schwarzmüller.
 
 ## Resources
 - **Course Url:** https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/
