@@ -1,16 +1,26 @@
-# roll_dice_app
+# Roll Dice App
 
-A new Flutter project.
+A simple Flutter app that simulates rolling a dice with a beautiful gradient background.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Roll a 6-sided dice with random results
+- Gradient background with customizable colors
+- Visual dice images (1-6)
+- Debug mode logging for dice rolls
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+lib/
+├── main.dart                # App entry point
+├── gradient_container.dart  # Gradient background widget
+└── dice_roller.dart         # Dice rolling logic and UI
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the App
+
+```bash
+flutter pub get
+flutter run
+```
