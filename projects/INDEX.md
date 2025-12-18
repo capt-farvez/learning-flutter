@@ -21,5 +21,12 @@
    - Organized code with separate widget files (modular architecture)
 
 4. **quiz_app**
-   - Building a quiz application with multiple-choice questions
-   - Implementing score tracking and result display
+   - Built a complete quiz application with multiple-choice questions
+   - Implemented multi-screen navigation (start screen, questions screen, results screen)
+   - Used StatefulWidget for state management across screens
+   - Created custom data models (QuizQuestion) with answer shuffling
+   - Implemented answer tracking and score calculation
+   - Built a scrollable results summary with question-by-question breakdown
+   - Added restart functionality to reset quiz state
+   - Applied Google Fonts for enhanced typography
+   - Used gradient backgrounds and custom styling for UI polish
