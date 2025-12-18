@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:quiz_app/quiz.dart';
+
 void main() {
-  runApp(
-    const Center(
-      child: Text(
-        'Hello, world!',
-        textDirection: TextDirection.ltr,
-        style: TextStyle(color: Colors.blue),
-      ),
-    ),
-  );
+  runApp(const Quiz());
 }
