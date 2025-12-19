@@ -1,16 +1,43 @@
-# todo_app
+# Todo App - Flutter Internals Demo
 
-A new Flutter project.
+A Flutter application demonstrating Flutter internals, focusing on Keys and UI update mechanisms.
+
+## Features
+
+- **Checkable Todo Items**: Toggle completion state with checkboxes
+- **Priority Levels**: Urgent, Normal, and Low with distinct icons
+- **Sorting**: Toggle ascending/descending alphabetical order
+- **Keys Demo**: Demonstrates proper use of ObjectKey for widget identity
+
+## Concepts Covered
+
+- **Flutter Keys**: Using `ObjectKey` to maintain widget state during reordering
+- **Widget Lifecycle**: Understanding when widgets rebuild vs reuse state
+- **StatefulWidget**: Managing local state in checkable items
+- **UI Updates**: How Flutter handles widget tree updates efficiently
+
+## Project Structure
+
+```
+lib/
+├── main.dart                       # App entry point
+├── demo_buttons.dart               # UI updates demo buttons
+├── ui_updates_demo.dart            # Flutter internals explanation
+└── keys/
+    ├── keys.dart                   # Todo list with sorting
+    ├── todo_item.dart              # Basic todo item widget
+    └── checkable_todo_item.dart    # Stateful checkable item
+```
+
+## Key Learnings
+
+- Without keys, Flutter may incorrectly reuse widget state when items reorder
+- `ObjectKey` preserves state by associating it with the data object
+- Understanding the Element tree vs Widget tree relationship
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```

@@ -42,7 +42,12 @@
    - Organized code with models, widgets, and chart components
 
 6. **todo_app**
-
+   - Built a Flutter internals demo focusing on Keys and UI updates
+   - Implemented checkable todo items with priority levels (Urgent, Normal, Low)
+   - Created sortable list with ascending/descending toggle
+   - Demonstrated ObjectKey usage for preserving widget state during reordering
+   - Explored widget lifecycle and Element tree concepts
+   - Used StatefulWidget for local checkbox state management
 
 7. **meals_app**
 
