@@ -3,10 +3,18 @@ import 'package:flutter/material.dart';
 enum Priority { urgent, normal, low }
 
 class CheckableTodoItem extends StatefulWidget {
-  const CheckableTodoItem(this.text, this.priority, {super.key});
+  const CheckableTodoItem(
+    this.text,
+    this.priority, {
+    super.key,
+    this.onEdit,
+    this.onDelete,
+  });
 
   final String text;
   final Priority priority;
+  final VoidCallback? onEdit;
+  final VoidCallback? onDelete;
 
   @override
   State<CheckableTodoItem> createState() => _CheckableTodoItemState();
@@ -42,7 +50,21 @@ class _CheckableTodoItemState extends State<CheckableTodoItem> {
           const SizedBox(width: 6),
           Icon(icon),
           const SizedBox(width: 12),
-          Text(widget.text),
+          Expanded(child: Text(widget.text)),
+          if (widget.onEdit != null)
+            IconButton(
+              icon: const Icon(Icons.edit, size: 20),
+              onPressed: widget.onEdit,
+            ),
+          if (widget.onDelete != null)
+            IconButton(
+              icon: Icon(
+                Icons.delete,
+                size: 20,
+                color: Theme.of(context).colorScheme.error,
+              ),
+              onPressed: widget.onDelete,
+            ),
         ],
       ),
     );
