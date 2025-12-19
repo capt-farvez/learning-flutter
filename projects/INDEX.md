@@ -30,3 +30,27 @@
    - Added restart functionality to reset quiz state
    - Applied Google Fonts for enhanced typography
    - Used gradient backgrounds and custom styling for UI polish
+
+5. **expense_tracker**
+   - Built a personal expense tracking app with visual analytics
+   - Implemented expense categories (Food, Travel, Leisure, Work) with icons
+   - Created bar chart visualization showing expense distribution by category
+   - Used modal bottom sheet for adding new expenses with form validation
+   - Implemented swipe-to-delete with undo functionality via SnackBar
+   - Applied custom theming with light/dark mode support
+   - Used responsive layout adapting to portrait/landscape orientations
+   - Organized code with models, widgets, and chart components
+
+6. **todo_app**
+
+
+7. **meals_app**
+
+
+8. **shopping_list_app**
+
+
+9. **favourite_places_app**
+
+
+10. **chat_app**
