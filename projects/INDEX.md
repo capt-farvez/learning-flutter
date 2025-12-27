@@ -50,7 +50,14 @@
    - Used StatefulWidget for local checkbox state management
 
 7. **meals_app**
-
+   - Built a recipe browsing app with category-based meal organization
+   - Implemented bottom tab navigation (Categories, Favorites)
+   - Created dietary filters (gluten-free, lactose-free, vegetarian, vegan)
+   - Added favorites functionality with state lifting pattern
+   - Used drawer navigation for accessing filters screen
+   - Implemented multi-screen navigation with data passing
+   - Displayed meal details with ingredients and cooking steps
+   - Applied custom dark theme with Google Fonts
 
 8. **shopping_list_app**
 
