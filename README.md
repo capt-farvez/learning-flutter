@@ -7,6 +7,24 @@ Learning the Flutter SDK and Flutter framework for building native iOS and Andro
 - **Learning Flutter GitHub Repo:** https://github.com/capt-farvez/learning-flutter
 - **Roadmap to learn Flutter:** https://roadmap.sh/flutter
 
+## Projects Overview
+See [Projects Index](projects/INDEX.md) for a list of all projects with brief descriptions.
+Each project's README contains detailed information about features, concepts, and code structure.
+
+### Key Concepts Covered
+| Project | Main Focus |
+|---------|------------|
+| first_app | StatefulWidget, setState, SnackBar |
+| counter_app | CRUD operations, ListView, AlertDialog |
+| roll_dice_app | Random generation, Modular architecture |
+| quiz_app | Multi-screen navigation, Data models |
+| expense_tracker | Charts, Modal sheets, Responsive layouts |
+| todo_app | Flutter Keys, Widget lifecycle, Element tree |
+| meals_app | Riverpod, Tab navigation, Drawer, Filters |
+| shopping_list_app | HTTP networking, Firebase REST API, Async/await |
+| favourite_places | Image picker, Google Maps, SQLite, Provider | 
+
+
 ## Setup & Installation
 - **Flutter Installation:** https://docs.flutter.dev/get-started/install
 - **Android Studio Setup:** https://developer.android.com/studio
@@ -19,7 +37,6 @@ Learning the Flutter SDK and Flutter framework for building native iOS and Andro
 ```bash
 flutter create <project_name>       # Create new Flutter project with default template
 flutter run                         # Run app in debug mode on connected device/emulator
-flutter run -d <device_id>          # Run on specific device (use 'flutter devices' to get ID)
 flutter run --release               # Run in release mode (optimized, no debug features)
 ```
 
@@ -67,21 +84,6 @@ flutter analyze                     # Analyze code for errors and warnings
 r                                   # Hot reload - apply code changes instantly
 R                                   # Hot restart - restart app with new code
 q                                   # Quit the running app
-```
-
-### Flutter Upgrade
-```bash
-flutter upgrade                     # Upgrade Flutter SDK to latest stable version
-flutter channel                     # Show current channel (stable/beta/dev/master)
-flutter channel stable              # Switch to stable channel
-flutter downgrade                   # Downgrade to previous Flutter version
-```
-
-### Code Generation
-```bash
-dart run build_runner build                 # Run code generation once (for json_serializable, freezed, etc.)
-dart run build_runner watch                 # Watch files and auto-generate code on changes
-dart run build_runner build --delete-conflicting-outputs  # Clean and regenerate
 ```
 
 ### Debugging & Profiling
