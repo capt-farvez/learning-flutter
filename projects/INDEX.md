@@ -60,7 +60,14 @@
    - Applied custom dark theme with Google Fonts
 
 8. **shopping_list_app**
-
+   - Built a grocery list app with Firebase Realtime Database backend
+   - Implemented HTTP networking (GET, POST, DELETE) using http package
+   - Created RESTful API communication with Firebase REST endpoints
+   - Used async/await patterns for network requests
+   - Implemented loading states and error handling for async operations
+   - Added form validation with DropdownButtonFormField and TextFormField
+   - Applied swipe-to-delete with Dismissible widget and server sync
+   - Demonstrated optimistic updates with rollback on failure
 
 9. **favourite_places_app**
 
