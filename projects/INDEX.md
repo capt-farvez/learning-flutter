@@ -69,7 +69,7 @@
    - Applied swipe-to-delete with Dismissible widget and server sync
    - Demonstrated optimistic updates with rollback on failure
 
-9. **favourite_places_app**
+9. **favourite_places**
 
 
 10. **chat_app**
