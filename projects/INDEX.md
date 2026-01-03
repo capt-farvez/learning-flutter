@@ -100,3 +100,15 @@
 
 
 10. **chat_app**
+
+   See details in [chat_app/README.md](chat_app/README.md)
+   - Built a complete chat app with email/password authentication (sign-up and login)
+   - Implemented real-time messaging using Cloud Firestore with StreamBuilder
+   - Integrated Firebase Storage for user profile image uploads with optimization
+   - Added push notifications via Firebase Cloud Messaging (FCM) with topic subscription
+   - Created intelligent message bubbles that group consecutive messages from same user
+   - Used image_picker for camera-based profile photo selection
+   - Stored user profiles in Firestore (username, email, image URL)
+   - Applied Material Design theme with purple color scheme
+   - Demonstrated async/await patterns with proper `mounted` checks for context safety
+   - Organized code with screens (splash, auth, chat) and reusable widgets
