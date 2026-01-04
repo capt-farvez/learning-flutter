@@ -21,7 +21,7 @@
 
    ![Roll Dice App](roll_dice_app/assets/screenshots/roll_dice_app.png)
 
-   See more details in [roll_dice_app/README.md](roll_dice_app/README.md)
+   To see more details: [Click](roll_dice_app/README.md)
 
    - Created an interactive dice rolling application
    - Implemented custom gradient backgrounds using LinearGradient
