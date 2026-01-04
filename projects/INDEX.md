@@ -18,13 +18,15 @@
    - Applied AlertDialog for user input handling
 
 3. **roll_dice_app**
-   
-   See details in [roll_dice_app/README.md](roll_dice_app/README.md)
+
+   ![Roll Dice App](roll_dice_app/assets/screenshots/roll_dice_app.png)
+
+   See more details in [roll_dice_app/README.md](roll_dice_app/README.md)
+
    - Created an interactive dice rolling application
-   - Implemented custom gradient
-    backgrounds using LinearGradient
+   - Implemented custom gradient backgrounds using LinearGradient
    - Used random number generation for dice outcomes
-   - Organized code with separate widget files (modular architecture)
+   - Organized code with screens and widgets folders (modular architecture)
 
 4. **quiz_app**
    

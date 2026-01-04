@@ -2,6 +2,8 @@
 
 A simple Flutter app that simulates rolling a dice with a beautiful gradient background.
 
+![Roll Dice App](assets/screenshots/roll_dice_app.png)
+
 ## Features
 
 - Roll a 6-sided dice with random results
@@ -13,9 +15,13 @@ A simple Flutter app that simulates rolling a dice with a beautiful gradient bac
 
 ```
 lib/
-├── main.dart                # App entry point
-├── gradient_container.dart  # Gradient background widget
-└── dice_roller.dart         # Dice rolling logic and UI
+├── main.dart                          # App entry point
+├── screens/
+│   └── dice_screen.dart               # Main dice screen
+└── widgets/
+    ├── dice_roller.dart               # Dice rolling logic and UI
+    ├── gradient_container.dart        # Gradient background widget
+    └── styled_text.dart               # Reusable styled text widget
 ```
 
 ## Run the App
