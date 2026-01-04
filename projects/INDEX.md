@@ -2,7 +2,7 @@
 
 1. **first_app**
 
-   See details in [first_app/README.md](first_app/README.md)
+   To see more details: [Click](first_app/README.md)
    - Built a counter application with increment/decrement functionality
    - Implemented state management using StatefulWidget and setState()
    - Added boundary validation with auto-reset at ±10 limits
@@ -10,7 +10,7 @@
 
 2. **counter_app**
 
-   See details in [counter_app/README.md](counter_app/README.md)
+   To see more details: [Click](counter_app/README.md)
    - Developed a multi-counter app with CRUD operations (Create, Read, Update, Delete)
    - Implemented dynamic theming with dark/light mode toggle
    - Used ListView.builder for efficient rendering of multiple counters
@@ -30,7 +30,7 @@
 
 4. **quiz_app**
    
-   See details in [quiz_app/README.md](quiz_app/README.md)
+   To see more details: [Click](quiz_app/README.md)
    - Built a complete quiz application with multiple-choice questions
    - Implemented multi-screen navigation (start screen, questions screen, results screen)
    - Used StatefulWidget for state management across screens
@@ -43,7 +43,7 @@
 
 5. **expense_tracker**
    
-   See details in [expense_tracker/README.md](expense_tracker/README.md)
+   To see more details: [Click](expense_tracker/README.md)
    - Built a personal expense tracking app with visual analytics
    - Implemented expense categories (Food, Travel, Leisure, Work) with icons
    - Created bar chart visualization showing expense distribution by category
@@ -55,7 +55,7 @@
 
 6. **todo_app**
    
-   See details in [todo_app/README.md](todo_app/README.md)
+   To see more details: [Click](todo_app/README.md)
    - Built a Flutter internals demo focusing on Keys and UI updates
    - Implemented checkable todo items with priority levels (Urgent, Normal, Low)
    - Created sortable list with ascending/descending toggle
@@ -65,7 +65,7 @@
 
 7. **meals_app**
    
-   See details in [meals_app/README.md](meals_app/README.md)
+   To see more details: [Click](meals_app/README.md)
    - Built a recipe browsing app with category-based meal organization
    - Implemented bottom tab navigation (Categories, Favorites)
    - Created dietary filters (gluten-free, lactose-free, vegetarian, vegan)
@@ -77,7 +77,7 @@
 
 8. **shopping_list_app**
    
-   See details in [shopping_list_app/README.md](shopping_list_app/README.md)
+   To see more details: [Click](shopping_list_app/README.md)
    - Built a grocery list app with Firebase Realtime Database backend
    - Implemented HTTP networking (GET, POST, DELETE) using http package
    - Created RESTful API communication with Firebase REST endpoints
@@ -89,7 +89,7 @@
 
 9. **favourite_places**
    
-   See details in [favourite_places/README.md](favourite_places/README.md)
+   To see more details: [Click](favourite_places/README.md)
    - Built a favorite places app with image picking and location features
    - Implemented image selection using image_picker package
    - Integrated Google Maps for location selection and display
@@ -103,7 +103,7 @@
 
 10. **chat_app**
 
-   See details in [chat_app/README.md](chat_app/README.md)
+   To see more details: [Click](chat_app/README.md)
    - Built a complete chat app with email/password authentication (sign-up and login)
    - Implemented real-time messaging using Cloud Firestore with StreamBuilder
    - Integrated Firebase Storage for user profile image uploads with optimization
