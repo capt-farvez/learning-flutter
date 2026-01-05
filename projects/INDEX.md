@@ -14,7 +14,9 @@
 2. **counter_app**
 
    ![Counter App](counter_app/assets/screenshots/multi_counter_2.png)
+
    To see more details: [Click](counter_app/README.md)
+   
    - Developed a multi-counter app with CRUD operations (Create, Read, Update, Delete)
    - Implemented dynamic theming with dark/light mode toggle
    - Used ListView.builder for efficient rendering of multiple counters
@@ -33,8 +35,11 @@
    - Organized code with screens and widgets folders (modular architecture)
 
 4. **quiz_app**
-   
+
+   ![Quiz App](quiz_app/assets/screenshots/quiz_1.png)
+
    To see more details: [Click](quiz_app/README.md)
+
    - Built a complete quiz application with multiple-choice questions
    - Implemented multi-screen navigation (start screen, questions screen, results screen)
    - Used StatefulWidget for state management across screens

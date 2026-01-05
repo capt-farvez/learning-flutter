@@ -2,6 +2,8 @@
 
 A Flutter quiz application with multiple-choice questions about Flutter development concepts.
 
+![Quiz 1](assets/screenshots/quiz_1.png) ![Quiz 2](assets/screenshots/quiz_2.png) ![Quiz 3](assets/screenshots/quiz_3.png) ![Quiz 4](assets/screenshots/quiz_4.png)
+
 ## Features
 
 - Start screen with launch button
