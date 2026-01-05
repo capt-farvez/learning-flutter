@@ -2,6 +2,8 @@
 
 A Flutter app that allows users to create and manage multiple counters, each with a custom title.
 
+![Multi Counter 1](assets/screenshots/multi_counter_1.png) ![Multi Counter 2](assets/screenshots/multi_counter_2.png) ![Multi Counter 3](assets/screenshots/multi_counter_3.png) ![Multi Counter 4](assets/screenshots/multi_counter_4.png)
+
 ## Features
 
 - Create multiple counters with custom titles (max 18 characters)
