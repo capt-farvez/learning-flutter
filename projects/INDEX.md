@@ -2,7 +2,7 @@
 
 1. **first_app**
 
-   ![First App](first_app/assets/screenshots/counter_app_1.png)
+   <img src="first_app/assets/screenshots/counter_app_1.png" width="200">
 
    To see more details: [Click](first_app/README.md)
 
@@ -13,7 +13,7 @@
 
 2. **counter_app**
 
-   ![Counter App](counter_app/assets/screenshots/multi_counter_2.png)
+   <img src="counter_app/assets/screenshots/multi_counter_2.png" width="200">
 
    To see more details: [Click](counter_app/README.md)
    
@@ -25,7 +25,7 @@
 
 3. **roll_dice_app**
 
-   ![Roll Dice App](roll_dice_app/assets/screenshots/roll_dice_app.png)
+   <img src="roll_dice_app/assets/screenshots/roll_dice_app.png" width="200">
 
    To see more details: [Click](roll_dice_app/README.md)
 
@@ -36,7 +36,7 @@
 
 4. **quiz_app**
 
-   ![Quiz App](quiz_app/assets/screenshots/quiz_1.png)
+   <img src="quiz_app/assets/screenshots/quiz_1.png" width="200">
 
    To see more details: [Click](quiz_app/README.md)
 
@@ -52,7 +52,7 @@
 
 5. **expense_tracker**
 
-   ![Expense Tracker](expense_tracker/assets/screenshots/expense_tracker_3.png)
+   <img src="expense_tracker/assets/screenshots/expense_tracker_3.png" width="200">
 
    To see more details: [Click](expense_tracker/README.md)
 
@@ -67,7 +67,7 @@
 
 6. **todo_app**
 
-   ![Todo App](todo_app/assets/screenshots/todo_2.png)
+   <img src="todo_app/assets/screenshots/todo_2.png" width="200">
 
    To see more details: [Click](todo_app/README.md)
 
