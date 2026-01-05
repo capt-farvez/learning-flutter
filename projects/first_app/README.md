@@ -2,6 +2,8 @@
 
 A simple Flutter counter app with increment and decrement functionality.
 
+![Counter App 1](assets/screenshots/counter_app_1.png) ![Counter App 2](assets/screenshots/counter_app_2.png) ![Counter App 3](assets/screenshots/counter_app_3.png)
+
 ## Features
 
 - Increment and decrement counter with floating action buttons

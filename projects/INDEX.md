@@ -2,7 +2,10 @@
 
 1. **first_app**
 
+   ![First App](first_app/assets/screenshots/counter_app_1.png)
+
    To see more details: [Click](first_app/README.md)
+
    - Built a counter application with increment/decrement functionality
    - Implemented state management using StatefulWidget and setState()
    - Added boundary validation with auto-reset at ±10 limits
