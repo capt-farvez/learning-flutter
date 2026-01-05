@@ -51,8 +51,11 @@
    - Used gradient backgrounds and custom styling for UI polish
 
 5. **expense_tracker**
-   
+
+   ![Expense Tracker](expense_tracker/assets/screenshots/expense_tracker_3.png)
+
    To see more details: [Click](expense_tracker/README.md)
+
    - Built a personal expense tracking app with visual analytics
    - Implemented expense categories (Food, Travel, Leisure, Work) with icons
    - Created bar chart visualization showing expense distribution by category

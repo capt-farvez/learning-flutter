@@ -2,6 +2,8 @@
 
 A Flutter application for tracking personal expenses with visual analytics.
 
+![Expense Tracker 1](assets/screenshots/expense_tracker_1.png) ![Expense Tracker 2](assets/screenshots/expense_tracker_2.png) ![Expense Tracker 3](assets/screenshots/expense_tracker_3.png)
+
 ## Features
 
 - **Add Expenses**: Create expenses with title, amount, date, and category
