@@ -10,6 +10,7 @@
 
 2. **counter_app**
 
+   ![Counter App](counter_app/assets/screenshots/multi_counter_2.png)
    To see more details: [Click](counter_app/README.md)
    - Developed a multi-counter app with CRUD operations (Create, Read, Update, Delete)
    - Implemented dynamic theming with dark/light mode toggle
