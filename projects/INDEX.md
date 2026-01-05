@@ -66,8 +66,11 @@
    - Organized code with models, widgets, and chart components
 
 6. **todo_app**
-   
+
+   ![Todo App](todo_app/assets/screenshots/todo_2.png)
+
    To see more details: [Click](todo_app/README.md)
+
    - Built a Flutter internals demo focusing on Keys and UI updates
    - Implemented checkable todo items with priority levels (Urgent, Normal, Low)
    - Created sortable list with ascending/descending toggle

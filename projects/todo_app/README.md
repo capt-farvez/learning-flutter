@@ -2,6 +2,8 @@
 
 A Flutter application demonstrating Flutter internals, focusing on Keys and UI update mechanisms.
 
+![Todo 1](assets/screenshots/todo_1.png) ![Todo 2](assets/screenshots/todo_2.png) ![Todo 3](assets/screenshots/todo_3.png) ![Todo 4](assets/screenshots/todo_4.png) ![Todo 5](assets/screenshots/todo_5.png)
+
 ## Features
 
 - **Checkable Todo Items**: Toggle completion state with checkboxes
