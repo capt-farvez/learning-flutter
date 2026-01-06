@@ -91,7 +91,9 @@
    - Applied custom dark theme with Google Fonts
 
 8. **shopping_list_app**
-   
+
+   <img src="shopping_list_app/assets/screenshots/groceries-4.png" width="200">
+
    To see more details: [Click](shopping_list_app/README.md)
    - Built a grocery list app with Firebase Realtime Database backend
    - Implemented HTTP networking (GET, POST, DELETE) using http package

@@ -81,3 +81,12 @@ dependencies:
 flutter pub get
 flutter run
 ```
+
+## Screenshots
+
+<p float="left">
+  <img src="assets/screenshots/groceries-1.png" width="200">
+  <img src="assets/screenshots/groceries-2.png" width="200">
+  <img src="assets/screenshots/groceries-3.png" width="200">
+  <img src="assets/screenshots/groceries-4.png" width="200">
+</p>
