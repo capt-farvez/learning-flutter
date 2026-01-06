@@ -59,3 +59,14 @@ lib/
 flutter pub get
 flutter run
 ```
+
+## Screenshots
+
+<p float="left">
+  <img src="assets/screenshots/meals-1.png" width="200">
+  <img src="assets/screenshots/meals-2.png" width="200">
+  <img src="assets/screenshots/meals-3.png" width="200">
+  <img src="assets/screenshots/meals-4.png" width="200">
+  <img src="assets/screenshots/meals-5.png" width="200">
+  <img src="assets/screenshots/meals-6.png" width="200">
+</p>

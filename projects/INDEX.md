@@ -79,7 +79,9 @@
    - Used StatefulWidget for local checkbox state management
 
 7. **meals_app**
-   
+
+   <img src="meals_app/assets/screenshots/meals-6.png" width="200">
+
    To see more details: [Click](meals_app/README.md)
    - Built a recipe browsing app with category-based meal organization
    - Implemented bottom tab navigation (Categories, Favorites)
