@@ -20,19 +20,21 @@ A Flutter quiz application with multiple-choice questions about Flutter developm
 ```
 lib/
 ├── main.dart                           # App entry point
-├── quiz.dart                           # Main quiz coordinator widget
-├── start_screen.dart                   # Initial welcome screen
-├── questions_screen.dart               # Question display and answer selection
-├── results_screen.dart                 # Score and summary display
-├── answer_button.dart                  # Reusable answer button widget
-├── models/
-│   └── quiz_question.dart              # QuizQuestion data model
+├── app.dart                            # Main quiz app with state management
 ├── data/
 │   └── questions.dart                  # Quiz questions data
-└── questions_summary/
-    ├── questions_summary.dart          # Summary list widget
-    ├── summary_item.dart               # Individual question summary
-    └── question_identifier.dart        # Question number indicator
+├── models/
+│   └── quiz_question.dart              # QuizQuestion data model
+├── screens/
+│   ├── start_screen.dart               # Welcome screen
+│   ├── questions_screen.dart           # Question display and answer selection
+│   └── results_screen.dart             # Score and summary display
+└── widgets/
+    ├── answer_button.dart              # Reusable answer button widget
+    └── summary/
+        ├── questions_summary.dart      # Summary list widget
+        ├── summary_item.dart           # Individual question summary
+        └── question_identifier.dart    # Question number indicator
 ```
 
 ## Run the App
