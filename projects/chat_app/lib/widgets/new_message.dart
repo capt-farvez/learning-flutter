@@ -30,19 +30,34 @@ class _NewMessageState extends State<NewMessage> {
     FocusScope.of(context).unfocus();
     _messageController.clear();
 
-    final user = FirebaseAuth.instance.currentUser!;
-    final userData = await FirebaseFirestore.instance
-        .collection('users')
-        .doc(user.uid)
-        .get();
+    try {
+      final user = FirebaseAuth.instance.currentUser!;
+      final userData = await FirebaseFirestore.instance
+          .collection('users')
+          .doc(user.uid)
+          .get();
 
-    FirebaseFirestore.instance.collection('chat').add({
-      'text': enteredMessage,
-      'createdAt': Timestamp.now(),
-      'userId': user.uid,
-      'username': userData.data()!['username'],
-      'userImage': userData.data()!['image_url'],
-    });
+      if (!userData.exists) {
+        if (!mounted) return;
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('User data not found. Please re-login.')),
+        );
+        return;
+      }
+
+      await FirebaseFirestore.instance.collection('chat').add({
+        'text': enteredMessage,
+        'createdAt': Timestamp.now(),
+        'userId': user.uid,
+        'username': userData.data()?['username'] ?? 'Unknown',
+        'userImage': userData.data()?['image_url'] ?? '',
+      });
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Failed to send: $error')),
+      );
+    }
   }
 
   @override

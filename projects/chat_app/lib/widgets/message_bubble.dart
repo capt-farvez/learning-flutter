@@ -45,7 +45,7 @@ class MessageBubble extends StatelessWidget {
 
     return Stack(
       children: [
-        if (userImage != null)
+        if (userImage != null && userImage!.isNotEmpty)
           Positioned(
             top: 15,
             // Align user image to the right, if the message is from me.
@@ -56,6 +56,16 @@ class MessageBubble extends StatelessWidget {
               ),
               backgroundColor: theme.colorScheme.primary.withAlpha(180),
               radius: 23,
+            ),
+          ),
+        if (isFirstInSequence && (userImage == null || userImage!.isEmpty))
+          Positioned(
+            top: 15,
+            right: isMe ? 0 : null,
+            child: CircleAvatar(
+              backgroundColor: theme.colorScheme.primary.withAlpha(180),
+              radius: 23,
+              child: const Icon(Icons.person, color: Colors.white),
             ),
           ),
         Container(

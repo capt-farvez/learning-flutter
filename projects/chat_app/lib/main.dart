@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 import 'package:chat_app/screens/splash.dart';
 import 'package:chat_app/screens/chat.dart';
@@ -12,6 +13,15 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  // Request notification permissions
+  final fcm = FirebaseMessaging.instance;
+  await fcm.requestPermission();
+
+  // Get FCM token
+  final token = await fcm.getToken();
+  print('FCM Token: $token');
+
   runApp(const App());
 }
 

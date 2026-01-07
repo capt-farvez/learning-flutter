@@ -2,6 +2,8 @@
 
 A real-time messaging application built with Flutter and Firebase, featuring user authentication, profile management, and push notifications.
 
+![Chat 1](assets/screenshots/chat-1.png) ![Chat 2](assets/screenshots/chat-2.png) ![Chat 3](assets/screenshots/chat-3.png) ![Chat 4](assets/screenshots/chat-4.png)
+
 ## Features
 
 - **User Authentication**: Email/password sign-up and login with Firebase Auth

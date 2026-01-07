@@ -122,7 +122,10 @@
 
 10. **chat_app**
 
+   <img src="chat_app/assets/screenshots/chat-3.png" width="200">
+
    To see more details: [Click](chat_app/README.md)
+
    - Built a complete chat app with email/password authentication (sign-up and login)
    - Implemented real-time messaging using Cloud Firestore with StreamBuilder
    - Integrated Firebase Storage for user profile image uploads with optimization
